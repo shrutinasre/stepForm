@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</head>
+
+<body style="width: 100%;">
+    <h5>Way of Payment</h5>
+    <div class="row">
+        <div class="col-12">
+            <div class="alert alert-primary" role="alert">
+                <span>* </span>All bank charges must be met from your account.
+            </div>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-12 mb-2">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="bankTrans">
+                <label class="custom-control-label" for="bankTrans">Bank Transfer</label>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-4">
+            <div class="form-group row">
+                <label for="accHolder" class="col-sm-5 col-form-label">Account Holder:</label>
+                <div class="col-sm-7">
+                    <div class="form-control" id="accHolder"><b>AIWAIH Events</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="form-group row">
+                <label for="bankName" class="col-sm-5 col-form-label">Bank Name:</label>
+                <div class="col-sm-7">
+                    <div class="form-control" id="bankName"><b>SBI, Kothrud, Pune</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="form-group row">
+                <label for="swiss" class="col-sm-5 col-form-label">BIC/Swiss:</label>
+                <div class="col-sm-7">
+                    <div class="form-control" id="swiss"><b>AIWAIH</b></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-4">
+            <div class="form-group row">
+                <label for="accNum" class="col-sm-5 col-form-label">Account Number:</label>
+                <div class="col-sm-7">
+                    <div class="form-control" id="accNum"><b>310-190032-40</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="form-group row">
+                <label for="iban" class="col-sm-5 col-form-label">IBAN:</label>
+                <div class="col-sm-7">
+                    <div class="form-control" id="iban"><b>BE97 3101 1809</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="form-group row">
+                <label for="comnctn" class="col-sm-5 col-form-label">Communication:</label>
+                <div class="col-sm-7">
+                    <div class="form-control" id="comnctn"><b>Delegate's Name</b></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row mb-2">
+        <div class="col-12">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="bankTrans">
+                <label class="custom-control-label" for="bankTrans">Credit Card</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-12">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="visa">
+                <label class="custom-control-label" for="visa">VISA</label>
+                <input type="checkbox" class="custom-control-input" id="masterCard">
+                <label class="custom-control-label" for="masterCard">Master Card</label>
+                <input type="checkbox" class="custom-control-input" id="americanEx">
+                <label class="custom-control-label" for="americanEx">American Express</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-4">
+            <div class="form-group row">
+                <label for="cardHolder" class="col-sm-4 col-form-label"><span class="text-danger">* </span> Card
+                    Holder:</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" id="cardHolder" placeholder="Account Holder"></input>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="form-group row">
+                <label for="cardNum" class="col-sm-4 col-form-label"><span class="text-danger">* </span> Card
+                    Number:</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" id="cardNum" placeholder="Card Number"></input>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="form-group row">
+                <label for="expDate" class="col-sm-4 col-form-label"><span class="text-danger">* </span> Expiry
+                    Date:</label>
+                <div class="col-sm-8">
+                    <input type="date" class="form-control" id="expDate" placeholder="mm/yyyy"></input>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-4">
+            <div class="form-group row">
+                <label for="cvv" class="col-sm-4 col-form-label"><span class="text-danger">* </span> CVV:</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" id="cvv" placeholder="CVV"></input>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="form-group row">
+                <label for="sign" class="col-sm-4 col-form-label"><span class="text-danger">* </span> Signature:</label>
+                <div class="col-sm-8">
+                    <input type="file" class="form-control" id="sign" </input>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="custom-control custom-checkbox text-center mt-3">
+                <input type="checkbox" class="custom-control-input" id="receipt">
+                <label class="custom-control-label" for="receipt">I will need an invoice</label>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h5>Way of Payment</h5>
+
+    <div class="row mb-2">
+        <div class="col-4">
+            <div class="form-group row">
+                <label for="orgName" class="col-sm-5 col-form-label">Organization:</label>
+                <div class="col-sm-7">
+                    <input class="form-control" id="orgName" placeholder="Organization Name"></input>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="form-group row">
+                <label for="vatNo" class="col-sm-5 col-form-label">VAT No.:</label>
+                <div class="col-sm-7">
+                    <input class="form-control" id="vatNo" placeholder="VAT No."></input>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="form-group row">
+                <label for="contactP" class="col-sm-5 col-form-label">BIC/Swiss:</label>
+                <div class="col-sm-7">
+                    <input class="form-control" id="contactP" placeholder="Contact Person"></input>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-4">
+            <div class="form-group row">
+                <label for="cNumber" class="col-sm-5 col-form-label">Contact Number:</label>
+                <div class="col-sm-7">
+                    <input class="form-control" id="cNumber" placeholder="Contact Number"></input>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+
+            <div class="form-group row">
+                <label for="emailId" class="col-sm-5 col-form-label">E-mail Id:</label>
+                <div class="col-sm-7 d-flex">
+                    <input class="form-control form-control" id="emailId" placeholder="E-mail Id @">
+                    <div class="input-group-append">
+                        <select class="input-group-text pl-0" id="selectbtn">
+                            <option>gmail.com</option>
+                            <option>rediffmail.com</option>
+                            <option>outlook.com</option>
+                        </select>
+                    </div>
+                    </input>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="custom-control custom-checkbox text-center mt-3">
+                <input type="checkbox" class="custom-control-input" id="receipt">
+                <label class="custom-control-label" for="receipt">I will need a e-receipt</label>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

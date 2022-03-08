@@ -1,0 +1,122 @@
+.customScreen {
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+/*formEvent.html*/
+
+.container {
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.rowSet {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+
+/* stepForm.html */
+
+.cBorder {
+    border: 1px solid #efb8bd;
+}
+
+.rowBg {
+    background: #efb8bd;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.fSize-12 {
+    font-size: 12px;
+}
+
+.w-70p {
+    width: 70%;
+}
+
+.w-90p {
+    width: 90%;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body .parent_div {
+    background-color: #8ec5fc;
+    background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.ml-7 {
+    margin-left: 7px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.btn-next {
+    background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+    border: none;
+    font-weight: 700;
+}
+
+.btn-prev {
+    background-image: linear-gradient(90deg, #fee140 0%, #fa709a 100%);
+    border: none;
+    font-weight: 700;
+}
+
+.btn-sub {
+    background-image: linear-gradient( 225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+    border: none;
+    font-weight: 700;
+    color: white;
+}
+
+
+/* invoice.html */
+
+.bg {
+    background-image: url(roi-calculator-bg-blue.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+table {
+    background: snow;
+    border: 3px solid gold;
+    position: relative;
+    left: 325px;
+    top: 100px;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border: 1px solid gainsboro;
+}
+
+.border-bottom {
+    border-bottom: 5px solid darkgrey;
+}
+
+.pr-55 {
+    padding-right: 55px !important;
+}
